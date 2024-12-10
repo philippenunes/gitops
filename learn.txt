@@ -4,4 +4,4 @@ Recupear senha inicial do ArgoCD
 
 Iniciar ArgoCD usando portfoward
 
-- port-forward svc/argocd-server -n argocd 8000:443
+- kubectl port-forward svc/argocd-server -n argocd 8000:443

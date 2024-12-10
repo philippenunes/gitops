@@ -3,8 +3,10 @@ kind: Service
 metadata:
   name: nodeserver-service
 spec:
+  type: LoadBalancer
   selector:
-    app: nodeserver
+    app: nodeservice
   ports:
-  - port: 3000
-    targetPort: 3000
+    - protocol: TCP
+      port: 80      
+      targetPort: 3000
