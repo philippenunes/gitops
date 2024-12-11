@@ -8,4 +8,4 @@ resources:
 images:
 - name: nodeserver
   newName: philippenunes/gitops
-  newTag: f560ec01ad0d628dd5455a1be28a1426d606bc88
+  newTag: 784b8be34581c9866a92aec207a4bf2bdadafff5
